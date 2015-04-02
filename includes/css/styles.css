@@ -3,9 +3,6 @@
 My Custom CSS
 =============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
 
 */
 
@@ -85,7 +82,15 @@ body {
 	background: #FF9800;
 }
 
-.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12{
+.bgcolor-10 {
+	background: #4CAF50;
+}
+
+.bgcolor-11 {
+	background: #9C27B0;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -96,13 +101,26 @@ body {
    Carousel
    -------------------------------------- */
 
+#secondslide {
+    color : black;
+}
 
+/* --------------------------------------
+   More Features
+   -------------------------------------- */
+   
+.moreFeatures {
+	padding-top: 50px;
+}
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
    
-
+.contentDivider {
+	clear: both;
+    visibility: hidden;
+}
 
 
 /* --------------------------------------
