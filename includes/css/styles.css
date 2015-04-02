@@ -20,6 +20,7 @@ body {
 }
 
 
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -27,6 +28,10 @@ body {
 body {
 	font-family: 'Roboto', sans-serif;
 }
+
+.jumbotron {
+	padding-bottom: -20px !important;
+	}
 
 /* --------------------------------------
    Navbar
@@ -53,6 +58,22 @@ body {
 /* --------------------------------------
    History
    -------------------------------------- */
+   
+.bgcolor-2 {
+  background: white;
+}
+.bgcolor-3 {
+  background: #E91E63;
+}
+.bgcolor-4 {
+  background: #2196F3;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+   
 
   
 /* --------------------------------------
