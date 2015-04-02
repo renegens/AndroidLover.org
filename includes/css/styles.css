@@ -60,16 +60,32 @@ body {
    -------------------------------------- */
    
 .bgcolor-2 .bgcolor-5 {
-  background: white;
+	background: white;
 }
 .bgcolor-3 {
-  background: #E91E63;
+ 	background: #E91E63;
 }
 .bgcolor-4 {
-  background: #2196F3;
+ 	background: #2196F3;
 }
 
-.section1, .section2, .section3, .section4, .section5, .section6, .section7 {
+.bgcolor-6 {
+	background: #3F51B5;
+}
+
+.bgcolor-7 {
+	background: #795548;
+}
+
+.bgcolor-8 {
+	background: #FFEB3B;
+}
+
+.bgcolor-9 {
+	background: #FF9800;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12{
   padding-top: 100px;
   padding-bottom: 100px;
 }
