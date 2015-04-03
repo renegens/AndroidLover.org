@@ -17,6 +17,10 @@
 
     <!-- Custom CSS -->
     <link href="includes/css/styles.css" rel="stylesheet">
+    <!-- for scrolling animations -->
+        <!-- Custom CSS -->
+    <link href="includes/css/scrolling-nav.css" rel="stylesheet">
+    
 
     <!-- Custom font from google Roboto -->
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -42,26 +46,26 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pull-right">
-                    <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a>
+                    <li class="active"><a class="page-scroll" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>                    <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">History <span class="caret"></span></a>
 			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#section2">Android Device</a></li>
-			            <li><a href="#section3">Cupcake</a></li>
-			            <li><a href="#section4">Donut</a></li>
-			            <li><a href="#section5">Eclair</a></li>
-			            <li><a href="#section6">Froyo</a></li>
-			            <li><a href="#section7">Gingerbread</a></li>
-			            <li><a href="#section8">Honeycomb</a></li>
-			            <li><a href="#section9">Ice Cream Sandwich</a></li>
-			            <li><a href="#section10">Jelly Bean</a></li>
-			            <li><a href="#section11">Kit Kat</a></li>   
+			            <li><a class="page-scroll" href="#section2" >Android Device</a></li>
+			            <li><a class="page-scroll" href="#section3">Cupcake</a></li>
+			            <li><a class="page-scroll" href="#section4">Donut</a></li>
+			            <li><a class="page-scroll" href="#section5">Eclair</a></li>
+			            <li><a class="page-scroll" href="#section6">Froyo</a></li>
+			            <li><a class="page-scroll" href="#section7">Gingerbread</a></li>
+			            <li><a class="page-scroll" href="#section8">Honeycomb</a></li>
+			            <li><a class="page-scroll" href="#section9">Ice Cream Sandwich</a></li>
+			            <li><a class="page-scroll" href="#section10">Jelly Bean</a></li>
+			            <li><a class="page-scroll" href="#section11">Kit Kat</a></li>   
 			          </ul>
 			        </li>
                     
-                    <li><a href="#contentDivider">Lollipop</a>
+                    <li><a class="page-scroll" href="#myCarousel">Lollipop</a>
                     </li>
-                    <li><a href="#moreFeatures">More Features</a>
+                    <li><a class="page-scroll" href="#moreFeatures">More Features</a>
                     </li>
                 </ul>
             </div>
@@ -471,12 +475,13 @@
 
 </section>
 
-<hr class="contentDivider" id="contentDivider">
-
 
     
   <!-- Carousel
     ================================================== -->
+    
+ 
+</a>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -530,7 +535,7 @@
     <!-- Main area of some content -->
     <!-- ===================================================== -->
 
-<section class="moreFeatures" id="moreFeatures">
+<section class="moreFeatures" id="moreFeatures" >
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
@@ -576,6 +581,9 @@
 
     <!-- Custom JS -->
     <script src="includes/js/script.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="includes/js/jquery.easing.min.js"></script>
+    <script src="includes/js/scrolling-nav.js"></script>
 
 </body>
 
