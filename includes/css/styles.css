@@ -5,141 +5,175 @@ My Custom CSS
 
 
 */
-
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
 /* Move down content because we have a fixed navbar that is 50px tall */
+
 body {
-  min-height: 2000px;
-  padding-top: 70px;
+    min-height: 2000px;
+    padding-top: 70px;
 }
 
 footer {
-	background: #333;
-	color: #eee;
-	font-size: 11px;
-	padding: 20px;
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
 }
 
+#versions {margin-top: 50px;}
 
-
-
+.devider:before, .devider:after {
+  content: "______________________";
+  color: #e6e8ea;
+  position: relative;
+  bottom: 6px;
+}
 /* --------------------------------------
    Jumbotron
    -------------------------------------- */
-.jumbotron {
-	background: #2196F3;
-	color: white;
-	
-	}
 
+.jumbotron {
+    background: #2196F3;
+    color: white;
+}
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
 body {
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
+    font-family: 'Roboto' , sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
 }
 
-
-
+.sec-title h2 {
+    font-family: 'open sans', sans-serif;
+    
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
 
-.navbar {background: #1976D2;
-	
+.navbar {
+    background: #1976D2;
 }
-
 /* --------------------------------------
    History
    -------------------------------------- */
-   
-.container-fluid {padding: 0;}
+.sec-title {
+    font-size: 15px; 
+    color: #4CAF50;
+}
+
+.sec-title h2 {
+    text-transform: uppercase; 
+    font-weight: 900;
+    
+}
+
+.sec-sub-title p {
+    margin-top:30px;
+    font-weight: 700;
+    color: grey;
+    font-size: 15px;
+}
+
+.container-fluid {
+    padding: 0;
+}
 
 .imageWrapper img {
-   	padding-top: 60px;
+    padding-top: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-
-#android1 {background-color: #D32F2F;}
-
-#cupcake {background: #F44336;}
-
-#donut {background: #FF4081;}
-
-#eclair {background:white; }
-
-#froyo {background: #E040FB;}
-
-#gingerbread {background: #795548;}
-
-#honeycomb {background: #FFC107;}
-
-#icecreamsandwich {background: #4CAF50;}
-
-#jellybean {background:#00BCD4;}
-
-#kitkat {background: #FF9800;}
-
-.box{
-	margin: 0;
-	padding: 0;
-    width:25%;
-    height:300px;
-    float:left; 
-    display:block;
+#android1 {
+    background-color: #D32F2F;
 }
-   
 
-  
+#cupcake {
+    background: #F44336;
+}
+
+#donut {
+    background: #FF4081;
+}
+
+#eclair {
+    background: white;
+}
+
+#froyo {
+    background: #E040FB;
+}
+
+#gingerbread {
+    background: #795548;
+}
+
+#honeycomb {
+    background: #FFC107;
+}
+
+#icecreamsandwich {
+    background: #4CAF50;
+}
+
+#jellybean {
+    background: #00BCD4;
+}
+
+#kitkat {
+    background: #FF9800;
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 300px;
+    float: left;
+    display: block;
+}
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-
-
-
 /* --------------------------------------
-   More Features
+   Details
    -------------------------------------- */
-   
-
+#details {margin-top: 60px}
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-   
-   
-
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
-
 /* Portrait & landscape phone */
+
 @media (max-width: 480px) {
-	.imageWrapper {width:100%;}
-	.box {width:100%;}
-	
+    .imageWrapper {
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+    }
 }
-
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	.imageWrapper {width:50%;}
-	.box {width:50%;}
-}
 
-/* Large desktop */
-@media (min-width: 1200px) {
-	
+@media (max-width: 768px) {
+    .imageWrapper {
+        width: 25%;
+    }
+    .box {
+        width: 50%;
+    }
 }
+/* Large desktop */
+
+@media (min-width: 1200px) {}
