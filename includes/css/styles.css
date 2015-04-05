@@ -10,12 +10,31 @@ My Custom CSS
 /* --------------------------------------
    Layout
    -------------------------------------- */
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 80px;
-  padding-bottom: 20px;
+  min-height: 2000px;
+  padding-top: 70px;
 }
 
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+
+
+
+/* --------------------------------------
+   Jumbotron
+   -------------------------------------- */
+.jumbotron {
+	background: #2196F3;
+	color: white;
+	
+	}
 
 
 /* --------------------------------------
@@ -24,75 +43,62 @@ body {
 
 body {
 	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 
-.jumbotron {
-	padding-bottom: -20px !important;
-	}
+
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-.navbar {
-	background-color: #009688;
-}
 
-.navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 80px;
-}
-
-.navbar-fixed-top {
-    min-height: 80px;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-  color: #fff;
-  background-color: #4DB6AC;
+.navbar {background: #1976D2;
+	
 }
 
 /* --------------------------------------
    History
    -------------------------------------- */
    
-.bgcolor-2 .bgcolor-5 {
-	background: white;
-}
-.bgcolor-3 {
- 	background: #E91E63;
-}
-.bgcolor-4 {
- 	background: #2196F3;
+.container-fluid {padding: 0;}
+
+.imageWrapper img {
+   	padding-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.bgcolor-6 {
-	background: #3F51B5;
-}
 
-.bgcolor-7 {
-	background: #795548;
-}
 
-.bgcolor-8 {
-	background: #FFEB3B;
-}
+#android1 {background-color: #D32F2F;}
 
-.bgcolor-9 {
-	background: #FF9800;
-}
+#cupcake {background: #F44336;}
 
-.bgcolor-10 {
-	background: #4CAF50;
-}
+#donut {background: #FF4081;}
 
-.bgcolor-11 {
-	background: #9C27B0;
-}
+#eclair {background:white; }
 
-.section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+#froyo {background: #E040FB;}
+
+#gingerbread {background: #795548;}
+
+#honeycomb {background: #FFC107;}
+
+#icecreamsandwich {background: #4CAF50;}
+
+#jellybean {background:#00BCD4;}
+
+#kitkat {background: #FF9800;}
+
+.box{
+	margin: 0;
+	padding: 0;
+    width:25%;
+    height:300px;
+    float:left; 
+    display:block;
 }
    
 
@@ -101,26 +107,19 @@ body {
    Carousel
    -------------------------------------- */
 
-#secondslide {
-    color : black;
-}
+
 
 /* --------------------------------------
    More Features
    -------------------------------------- */
    
-.moreFeatures {
-	padding-top: 50px;
-}
+
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
    
-.contentDivider {
-	clear: both;
-    visibility: hidden;
-}
+   
 
 
 /* --------------------------------------
@@ -129,18 +128,15 @@ body {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+	.imageWrapper {width:100%;}
+	.box {width:100%;}
 	
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
-    .navbar-nav > li > a {
-    line-height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;}
-}
-	
+	.imageWrapper {width:50%;}
+	.box {width:50%;}
 }
 
 /* Large desktop */
