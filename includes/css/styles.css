@@ -142,11 +142,15 @@ body {
     border: 0 none;
     box-shadow: none;
     border-radius: 0 !important;
+    
 }
 
 .marginRow{
      margin:0px !important; 
    }
+   
+ .top-buffer { margin-top: 50px; }
+ .top-row-whitespace {margin-top: -55px; }
 
 /* --------------------------------------
    Carousel
