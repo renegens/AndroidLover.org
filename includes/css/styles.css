@@ -92,10 +92,14 @@ body {
 
 #android1 {
     background-color: #D32F2F;
+    
 }
+
+#androidone{margin-top: 20px;}
 
 #cupcake {
     background: #F44336;
+
 }
 
 #donut {
@@ -130,7 +134,7 @@ body {
     background: #FF9800;
 }
 
-.col-sm-5cols{
+.col-md-6, .col-md-3, .col-md-4 {
     position: relative;
     min-height: 1px;
     padding-right: 0px;
@@ -145,9 +149,12 @@ body {
     
 }
 
-.marginRow{
-     margin:0px !important; 
-   }
+.not-first-row
+{
+   position: relative;
+   top: -20px;
+
+}
    
  .top-buffer { margin-top: 50px; }
  .top-row-whitespace {margin-top: -55px; }
