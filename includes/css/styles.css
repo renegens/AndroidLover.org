@@ -31,6 +31,10 @@ footer {
   bottom: 6px;
 }
 /* --------------------------------------
+   New columns
+   -------------------------------------- */
+
+/* --------------------------------------
    Jumbotron
    -------------------------------------- */
 
@@ -85,12 +89,6 @@ body {
     padding: 0;
 }
 
-.imageWrapper img {
-    padding-top: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #android1 {
     background-color: #D32F2F;
@@ -132,14 +130,24 @@ body {
     background: #FF9800;
 }
 
-.box {
-    margin: 0;
-    padding: 0;
-    width: 20%;
-    height: 300px;
-    float: left;
-    display: block;
+.col-sm-5cols{
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-style: none;
 }
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    border-radius: 0 !important;
+}
+
+.marginRow{
+     margin:0px !important; 
+   }
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -156,24 +164,13 @@ body {
    -------------------------------------- */
 /* Portrait & landscape phone */
 
-@media (max-width: 480px) {
-    .imageWrapper {
-        width: 100%;
-    }
-    .box {
-        width: 100%;
+/* CSS used here will be applied after bootstrap.css */
+
+
+
+@media (min-width: 768px) {
+.col-sm-5cols {
+        width: 20%;
+        float: left;
     }
 }
-/* Landscape phone to portrait tablet */
-
-@media (max-width: 768px) {
-    .imageWrapper {
-        width: 25%;
-    }
-    .box {
-        width: 50%;
-    }
-}
-/* Large desktop */
-
-@media (min-width: 1200px) {}
