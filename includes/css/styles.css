@@ -11,7 +11,7 @@ My Custom CSS
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 body {
-    min-height: 2000px;
+    min-height: 800px;
     padding-top: 70px;
 }
 
@@ -62,7 +62,7 @@ body {
    -------------------------------------- */
 
 .navbar {
-    background: #1976D2;
+    background: #C62828;
 }
 /* --------------------------------------
    History
@@ -91,19 +91,19 @@ body {
 
 
 #android1 {
-    background-color: #D32F2F;
+    background-color: #5C6BC0;
     
 }
 
 #androidone{margin-top: 20px;}
 
 #cupcake {
-    background: #F44336;
+    background: #EF5350;
 
 }
 
 #donut {
-    background: #FF4081;
+    background: #BA68C8;
 }
 
 #eclair {
@@ -111,27 +111,32 @@ body {
 }
 
 #froyo {
-    background: #E040FB;
+    background: #E0E0E0;
 }
 
 #gingerbread {
-    background: #795548;
+    background: #81C784;
 }
 
 #honeycomb {
-    background: #FFC107;
+    background: #FFEE58;
 }
 
 #icecreamsandwich {
-    background: #4CAF50;
+    background: #F06292;
+
 }
+
+#oddice {padding-left: 10px;}
 
 #jellybean {
-    background: #00BCD4;
+    background: #E0E0E0;
 }
+#oddjelly {max-width: 484px;}
+
 
 #kitkat {
-    background: #FF9800;
+    background: #FF7043;
 }
 
 .col-md-6, .col-md-3, .col-md-4 {
@@ -152,9 +157,17 @@ body {
 .not-first-row
 {
    position: relative;
-   top: -20px;
+   top: -30px;
 
 }
+
+.not-first-row-enhanced
+{
+   position: relative;
+   top: -50px;
+
+}
+
    
  .top-buffer { margin-top: 50px; }
  .top-row-whitespace {margin-top: -55px; }
@@ -162,6 +175,36 @@ body {
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+
+
+#slide1 {
+ 
+  
+  background: url('../../images/lollipop1.jpg') ;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide2 {
+  
+  background: url('../../images/lollipop2.jpg') ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#slide3 {
+  
+  background: url('../../images/lollipop3.png');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* --------------------------------------
    Details
    -------------------------------------- */
@@ -178,10 +221,3 @@ body {
 /* CSS used here will be applied after bootstrap.css */
 
 
-
-@media (min-width: 768px) {
-.col-sm-5cols {
-        width: 20%;
-        float: left;
-    }
-}
