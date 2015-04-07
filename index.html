@@ -31,6 +31,9 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+    <!--load font awesome-->
+    <link rel="stylesheet" href="includes/font-awesome/css/font-awesome.min.css">
 
     <!-- Include Modernizr in the head, before any other Javascript -->
     <script src="includes/js/modernizr-2.6.2.min.js"></script>
@@ -78,6 +81,7 @@
 			            <li><a class="page-scroll" href="#kitkat">Kit Kat</a></li> 
               </ul>
             </li>
+            <li><a class="page-scroll" href="#social">Social</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -98,24 +102,21 @@
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" id="slide1"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <h2>Sweetness</h2>
                 </div>
             </div>
             <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" id="slide2"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2>On Every Device</h2>
                 </div>
             </div>
             <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" id="slide3"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <h2>Now Availabe</h2>
                 </div>
             </div>
         </div>
@@ -155,12 +156,12 @@
 			<div class="panel-heading">
 				<h3 class="panel-title">Material Design</h3>
 			</div><!-- end panel-heading -->
-			<img src="images/feature1.jpg" alt="HTML5" class="img-circle">
+			<img src="images/feature1.jpg" alt="Material Design" title="Material Design on Android" class="img-circle">
 			
                 <p>A bold, colorful, and responsive UI design for consistent, intuitive experiences across all your devices</p>
                 <p>Responsive, natural motion, realistic lighting and shadows, and familiar visual elements make it easier to navigate your device</p>
 			
-			<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
+			<a href="http://www.google.com/design/" target="_blank" class="btn btn-warning btn-block" id="button1">Material Design</a>
 		</div><!-- end panel -->
 	</div><!-- end feature -->
 	
@@ -169,12 +170,12 @@
 			<div class="panel-heading">
 				<h3 class="panel-title">Notifications</h3>
 			</div><!-- end panel-heading -->
-			<img src="images/feature2.png" alt="CSS3" >
+			<img src="images/feature2.png" alt="Notifications" title="Notifications display" >
 			
 			<p>New ways to control when and how you receive messages - only get interrupted when you want to be </p>
                 <p>View and respond to messages directly from your lock screen. Includes the ability to hide sensitive content for these notifications</p>
 			
-			<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
+			<a href="https://developer.android.com/about/versions/lollipop.html#Notifications" target="_blank" class="btn btn-danger btn-block" id="button2">Notifications</a>
 		</div><!-- end panel -->
 	</div><!-- end feature -->
 	
@@ -183,12 +184,12 @@
 			<div class="panel-heading">
 				<h3 class="panel-title">Battery</h3>
 			</div><!-- end panel-heading -->
-			<img src="images/feature3.png" alt="Bootstrap 3" class="img-circle">
+			<img src="images/feature3.png" alt="Battery" title="Battery saver"class="img-circle">
 			
-                <p>A battery saver feature which extends device use by up to 90 min</p>
-                <p>And now it's easier to manage your power usage - see the estimated time left before you need to charge, and when you're charging, approximately how much time until it's topped up and ready to go.</p>
+                <p>Battery saver feature which extends device use by up to 90 min in emergencies <br/><br/></p>
+                <p>See the estimated time left before you need to charge, and when you're charging, approximately how much time until it's topped up and ready to go.</p>
 			
-			<a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">More Bootstrap</a>
+			<a href="http://www.android.com/versions/lollipop-5-0/" target="_blank" class="btn btn-info btn-block" id="button3">More info</a>
 		</div><!-- end panel -->
 	</div><!-- end feature -->
 </div><!-- end features -->
@@ -293,7 +294,7 @@
    <!--					Details
 	   ===================================================== -->
 
-		<div class="container top-buffer">
+		<div class="container top-buffer-special">
 			<div class="row">
 				<div class="sec-title text-center" id="details">
 					<h2>Details</h2>
@@ -430,15 +431,26 @@
             <ul>		
         </div>  		
 	</div><!-- end of well -->
-		
 
 
 	   
    <!--					Footer
 	   ===================================================== -->
 
-    <footer>
-        <p>&copy; Rene Gens 2015</p>
+    <footer id="social">
+        <div class="container text-center">
+	        <h3>&copy; Rene Gens 2015</h3>
+			<div class="social">
+			    <ul>
+			        <li><a href="https://www.facebook.com/AndroidOfficial" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+			        <li><a href="https://twitter.com/android" target="_blank"><i class="fa fa-lg fa-twitter"></i></a></li>
+			        <li><a href="https://plus.google.com/+android" target="_blank"><i class="fa fa-lg fa-google-plus"></i></a></li>
+			        <li><a href="https://github.com/android" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+			        <li><a href="https://www.pinterest.com/explore/android/" target="_blank"><i class="fa fa-lg fa-pinterest"></i></a></li>
+			        <li><a href="https://www.youtube.com/user/GoogleMobile" target="_blank"><i class="fa fa-lg fa-youtube"></i></a></li>
+			    </ul>
+			</div>
+        </div>	
     </footer>
  
 
