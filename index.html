@@ -39,11 +39,13 @@
 
 <body>
    
+   <a href="#start"></a>
    <!--					Navbar
 	   ===================================================== -->
  
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
+	    <a name="start"> </a>
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -52,20 +54,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand page-scroll" href="#"><img src="images/logo.png" height="35" width="auto"></a>
+          <a class="navbar-brand page-scroll" href="#start"><img src="images/logo.png" height="35" width="auto"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a class="page-scroll" href="#">Home</a></li>
+            <li class="active"><a class="page-scroll" href="#start">Home</a></li>
+            <li><a class="page-scroll" href="#lollipop">Lollipop</a></li>
             <li><a class="page-scroll" href="#dessert">Dessert</a></li>
-            <li><a href="#lollipop">Lollipop</a></li>
+            <li><a class="page-scroll" href="#details">Details</a></li>
+            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Versions <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                   <li><a class="page-scroll" href="#android1">Android Device</a></li>
-			            <li><a class="page-scroll" href="#Cupcake">Cupcake</a></li>
-			            <li><a class="page-scroll" href="#Donut">Donut</a></li>
-			            <li><a class="page-scroll" href="#Eclair">Eclair</a></li>
+			            <li><a class="page-scroll" href="#cupcake">Cupcake</a></li>
+			            <li><a class="page-scroll" href="#donut">Donut</a></li>
+			            <li><a class="page-scroll" href="#eclair">Eclair</a></li>
 			            <li><a class="page-scroll" href="#froyo">Froyo</a></li>
 			            <li><a class="page-scroll" href="#gingerbread">Gingerbread</a></li>
 			            <li><a class="page-scroll" href="#honeycomb">Honeycomb</a></li>
@@ -126,8 +130,68 @@
 
     </header>
   
-
+      <!-- Lollipop Features -->
+    <!-- ===================================================== -->
     
+        <!--Divider-->
+    
+	<div class="container-fluid top-buffer" id="lollipop">
+		<div class="row">
+			<div class="sec-title text-center">
+				<h2>Lollipop</h2>
+					<div class="devider"><i class="glyphicon glyphicon-ice-lolly"></i>
+					</div>
+			</div>
+					
+			<div class="sec-sub-title text-center">
+				<p>Major new features</p>
+			</div>
+    </div>
+  </div>
+
+<div class="row top-buffer" id="features">
+	<div class="col-sm-4 feature">
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Material Design</h3>
+			</div><!-- end panel-heading -->
+			<img src="images/feature1.jpg" alt="HTML5" class="img-circle">
+			
+                <p>A bold, colorful, and responsive UI design for consistent, intuitive experiences across all your devices</p>
+                <p>Responsive, natural motion, realistic lighting and shadows, and familiar visual elements make it easier to navigate your device</p>
+			
+			<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
+		</div><!-- end panel -->
+	</div><!-- end feature -->
+	
+	<div class="col-sm-4 feature">
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Notifications</h3>
+			</div><!-- end panel-heading -->
+			<img src="images/feature2.png" alt="CSS3" >
+			
+			<p>New ways to control when and how you receive messages - only get interrupted when you want to be </p>
+                <p>View and respond to messages directly from your lock screen. Includes the ability to hide sensitive content for these notifications</p>
+			
+			<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
+		</div><!-- end panel -->
+	</div><!-- end feature -->
+	
+	<div class="col-sm-4 feature">
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Battery</h3>
+			</div><!-- end panel-heading -->
+			<img src="images/feature3.png" alt="Bootstrap 3" class="img-circle">
+			
+                <p>A battery saver feature which extends device use by up to 90 min</p>
+                <p>And now it's easier to manage your power usage - see the estimated time left before you need to charge, and when you're charging, approximately how much time until it's topped up and ready to go.</p>
+			
+			<a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">More Bootstrap</a>
+		</div><!-- end panel -->
+	</div><!-- end feature -->
+</div><!-- end features -->
     
     <!-- 				Main jumbotron
     	===================================================== -->
@@ -158,7 +222,7 @@
         
   <div class="row top-buffer">
     <div class="col-md-3">
-      <div class="thumbnail" id="android1"><br/><br/><br/><br/>
+      <div class="thumbnail" id="android1background"><br/><br/><br/><br/>
 					<img id="androidone"src="images/android1.png" /><br/><br/><br/><br/><br/><br/>
       </div>
     </div>
@@ -166,19 +230,19 @@
     <div class="col-md-9">
       <div class="row">
         <div class="col-md-4">
-          <div class="thumbnail" id="cupcake">
+          <div class="thumbnail" id="cupcakebackground">
 					 <img src="images/AndroidCupcake.png"  />
 	      </div>
       </div>
 
       <div class="col-md-4">
-        <div class="thumbnail" id="donut">
+        <div class="thumbnail" id="donutbackground">
 				  <img src="images/androiddonut.png"  />
 	      </div>
       </div>
 
       <div class="col-md-4">
-        <div class="thumbnail" id="eclair">
+        <div class="thumbnail" id="eclairbackground">
 					<img src="images/androidEclair.jpg"/>
 	      	</div>
         </div>
@@ -186,19 +250,19 @@
 
       <div class="row not-first-row">
         <div class="col-md-4">
-          <div class="thumbnail" id="froyo">
+          <div class="thumbnail" id="froyobackground">
 					 <img src="images/androidFroyo.png"/>
 	      	</div>
         </div>
 
       <div class="col-md-4">
-        <div class="thumbnail" id="gingerbread">
+        <div class="thumbnail" id="gingerbreadbackground">
 		 			<img src="images/androidGingerbread.png" />
 	      </div>
       </div>
       
       <div class="col-md-4">
-        <div class="thumbnail" id="honeycomb">
+        <div class="thumbnail" id="honeycombbackground">
 		     	<img src="images/androidHoneycomb.png"/>
 		    </div>
       </div>
@@ -207,19 +271,19 @@
 
   <div class="row not-first-row-enhanced" id="oddice">
     <div class="col-md-3">
-        <div class="thumbnail" id="icecreamsandwich">
+        <div class="thumbnail" id="icecreamsandwichbackground">
 		     	<img src="images/androidIceCreamSandwich.png" />
 		    </div>
     </div>
 
     <div class="col-md-3" id="oddjelly">
-      <div class="thumbnail" id="jellybean">
+      <div class="thumbnail" id="jellybeanbackground">
 		   	<img src="images/androidjellybean.png"/>
 		  </div>
     </div>
 
     <div class="col-md-6">
-      <div class="thumbnail" id="kitkat">
+      <div class="thumbnail" id="kitkatbackground">
 		   	<img src="images/androidkitkat.png"/>
 		 	</div>
     </div>
@@ -229,7 +293,7 @@
    <!--					Details
 	   ===================================================== -->
 
-		<div class="container">
+		<div class="container top-buffer">
 			<div class="row">
 				<div class="sec-title text-center" id="details">
 					<h2>Details</h2>
@@ -246,13 +310,128 @@
           <!--
         Features
         ==================================== -->
-<div class="well">
-        <p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-warning">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-danger">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</div>
+        
+
+
+	<div class="row top-buffer">
+		<div class="well text-center" id="android1background">
+			<h3 id="android1">1st Android Device</h3>
+			<h5>The HTC Dream (G1)/23 September 2008</h5>
+			<ul class="list-inline">
+				<li>Integration with Google Services</li>
+				<li>Web browser to show, zoom and pan full HTML and XHTML web pages show as windows</li>
+				<li>Android market app downloads and uploads</li>
+				<li>Multi-tasking, instant messaging, WiFi and Bluetooth</li>
+			<ul>					
+        </div>
+        
+        <div class="well text-center" id="cupcakebackground">
+			<h3 id="cupcake">Cupcake</h3>
+			<h5>Based on Linux Kernel 2.6.27 / 30th April 2009</h5>
+			<ul class="list-inline">
+				<li>Faster Camera start-up and image capture</li>
+				<li>Much faster acquisition of GPS location (powered by SUPL AGPS)</li>
+				<li>On-screen soft keyboard</li>
+				<li>Directly upload videos to Youtube and Picassa</li>
+			<ul>					
+        </div>
+        
+        <div class="well text-center" id="donutbackground">
+			<h3 id="donut">Donut</h3>
+			<h5>Based on Linux Kernel 2.6.29 / 30th April 2009</h5>
+			<ul class="list-inline">
+				<li>Quick Search Box and Voice Search</li>
+                <li>Integrated Camera, Gallery and toggle between still and video capture modes</li>
+                <li>Battery usage indicator</li>
+                <li>CDMA Support</li>
+                <li>Multi-lingual text-to-speech function</li>	
+			<ul>					
+        </div>
+        
+        <div class="well text-center" id="eclairbackground">
+			<h3 id="eclair">Eclair</h3>
+			<h5>Based on Linux Kernel 2.6.29 / 26th October 2009</h5>
+			<ul class="list-inline">
+				<li>Multiple Account for email and contact synchronization</li>
+                <li>Microsoft Exchange Support for syncing of e-mail</li>
+                <li>Bluetooth 2.1 Support</li>
+                <li>New Browser User Interface and support for HTML5</li>
+                <li>New Calendar Features</li> 
+			<ul>					
+        </div>
+        
+        <div class="well text-center" id="froyobackground">
+			<h3 id="froyo">Froyo</h3>
+			<h5>Based on Linux Kernel 2.6.32 / 20 May 2010</h5>
+			<ul class="list-inline">
+				<li>New tips widget for Homescreen and Improved Exchange support</li>
+                <li>Hotspot support</li>
+                <li>Multiple Keyboard Languages</li>
+                <li>Adobe Flash 10.1</li>    
+			<ul>					
+        </div>
+        
+        <div class="well text-center" id="gingerbreadbackground">
+			<h3 id="gingerbread">Gingerbread</h3>
+			<h5>6th December 2010</h5>
+			<ul class="list-inline">
+				<li>UI refinements for simplicity and speed</li>
+                <li>New keyboard for faster text input</li>
+                <li>One touch word selection and copy/paste</li>
+                <li>Near Field Communication (NFC)</li>
+                <li>Internet Calling</li>  			
+            <ul>					
+        </div>
+        
+        <div class="well text-center" id="honeycombbackground">
+			<h3 id="honeycomb">Honeycomb</h3>
+			<h5>3.1 SDK / 10th May 2011</h5>
+			<ul class="list-inline">
+				<li>Specially optimized for devices with larger screen sizes</li>
+                <li>Refind multitasking, rich notifications, homescreen customization, widgets</li>
+                <li>Bluetooth tethering</li>
+                <li>Build in support for Media/Picture Transfer Protocol</li>
+			<ul>					
+        </div>
+        
+                <div class="well text-center" id="icecreamsandwichbackground">
+			<h3 id="icecreamsandwich">Ice Cream Sandwich</h3>
+			<ul class="list-inline">
+				<li>Faster, smoother and more responsive</li>
+                <li>Refined refreshed UI</li>
+                <li>New ways to engage users</li>
+                <li>External display support</li>
+                <li>Enhancements for International Languages</li>
+                <li>New built in developer options</li>   	
+			<ul>					
+        </div>
+        
+        <div class="well text-center" id="jellybeanbackground">
+			<h3 id="jellybean">Jelly Bean</h3>
+			<h5>3.2 SDK / 18 July 2011</h5>
+			<ul class="list-inline">
+				<li>Simple beautiful and beyond smart</li>
+                <li>OpenGL ES 3.0 for high performance graphics</li>
+                <li>Enhanced Bluetooth connectivity</li>
+                <li>Support for Internationl Users</li> 
+                <li>New media capabilites</li> 
+			<ul>					
+        </div>
+        
+        <div class="well text-center" id="kitkatbackground">
+			<h3 id="kitkat">KitKat</h3>
+			<ul class="list-inline">
+				<li>Printing Framework</li>
+                <li>Webview based on Chromioum</li>
+                <li>New framework for UI transitions</li>
+                <li>Storage access framework for retrieving documents and content from other sources</li>
+                <li>Sensor Batching, step detector and Counter APIs</li>
+                <li>Native infrared blaster API</li> 			
+            <ul>		
+        </div>  		
+	</div><!-- end of well -->
+		
+
 
 	   
    <!--					Footer

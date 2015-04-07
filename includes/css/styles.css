@@ -38,9 +38,16 @@ footer {
    Jumbotron
    -------------------------------------- */
 
-.jumbotron {
-    background: #2196F3;
-    color: white;
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
 }
 
 /* --------------------------------------
@@ -85,57 +92,55 @@ body {
     font-size: 15px;
 }
 
-.container-fluid {
-    padding: 0;
-}
 
 
-#android1 {
+
+#android1background {
     background-color: #5C6BC0;
     
 }
 
 #androidone{margin-top: 20px;}
 
-#cupcake {
+#cupcakebackground {
     background: #EF5350;
 
 }
 
-#donut {
+#donutbackground {
     background: #BA68C8;
 }
 
-#eclair {
+#eclairbackground {
     background: white;
 }
 
-#froyo {
+#froyobackground {
     background: #E0E0E0;
 }
 
-#gingerbread {
+#gingerbreadbackground {
     background: #81C784;
 }
 
-#honeycomb {
+#honeycombbackground {
     background: #FFEE58;
 }
 
-#icecreamsandwich {
+#icecreamsandwichbackground {
     background: #F06292;
 
 }
 
 #oddice {padding-left: 10px;}
 
-#jellybean {
+#jellybeanbackground {
     background: #E0E0E0;
 }
 #oddjelly {max-width: 484px;}
 
 
-#kitkat {
+#kitkatbackground {
     background: #FF7043;
 }
 
@@ -169,7 +174,7 @@ body {
 }
 
    
- .top-buffer { margin-top: 50px; }
+ .top-buffer { margin-top: 150px; }
  .top-row-whitespace {margin-top: -55px; }
 
 /* --------------------------------------
