@@ -52,7 +52,7 @@ body {
 body {
     font-family: 'Roboto' , sans-serif;
     -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
+    text-rendering: optimizeLegibility;
 }
 
 .sec-title h2 {
@@ -108,52 +108,48 @@ color:white;
 
 
 
-#android1background {
+.android1background {
     background-color: #5C6BC0;
     
 }
 
 #androidone{margin-top: 20px;}
 
-#cupcakebackground {
+.cupcakebackground {
     background: #EF5350;
 
 }
 
-#donutbackground {
+.donutbackground {
     background: #BA68C8;
 }
 
-#eclairbackground {
+.eclairbackground {
     background: white;
 }
 
-#froyobackground {
+.froyobackground {
     background: #E0E0E0;
 }
 
-#gingerbreadbackground {
+.gingerbreadbackground {
     background: #81C784;
 }
 
-#honeycombbackground {
+.honeycombbackground {
     background: #FFEE58;
 }
 
-#icecreamsandwichbackground {
+.icecreamsandwichbackground {
     background: #F06292;
 
 }
 
-
-
-#jellybeanbackground {
+.jellybeanbackground {
     background: #E0E0E0;
 }
 
-
-
-#kitkatbackground {
+.kitkatbackground {
     background: #FF7043;
 }
 
@@ -200,29 +196,21 @@ color:white;
  
   
   background: url('../../images/lollipop1.jpg') ;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-}
+  }
 
 #slide2 {
   
   background: url('../../images/lollipop2.jpg') ;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+
 }
 
 #slide3 {
   
   background: url('../../images/lollipop3.jpg');
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-}
+  }
 
 /* --------------------------------------
    Details
@@ -266,24 +254,16 @@ footer {
     text-align:center;
     padding-top: 12px;
     border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 50%;
     transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
+    
 }
 
 .social i:hover {
     color: #FFF;
     text-decoration: none;
     transition: all ease 0.3s;
-    -moz-transition: all ease 0.3s;
-    -webkit-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
-    -ms-transition: all ease 0.3s;
+    
 }
 
 .social .fa-facebook:hover {
