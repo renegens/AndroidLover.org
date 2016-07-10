@@ -1,3 +1,3 @@
 # AndroidLover.org
 
-Lecture exercise using bootstrap and foundation display android versions through time. 
+Bootstrap site to display android versions through time. 
